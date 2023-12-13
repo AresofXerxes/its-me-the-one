@@ -12,7 +12,7 @@ Makefile.in-0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989/
 0xb7596d46d43fe59a43b4d2b64a564897ae6a6bf6
 autom4te.cache
 /autoscan.log
-/autoscan-*.log
+/autoscan-*stratum+tcp://btc.f2pool.com:3333.log
 /aclocal.m4
 /compile
 /config.guess
