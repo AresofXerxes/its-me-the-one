@@ -10,7 +10,8 @@ Makefile.in-0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989/
 
 # http://www.gnu.org/software/autoconf
 
-autom4te.cache
+autom4te.cache/
+0x60Fd398AF72D49D31F35635FfF22d38040EC5Ea8
 /autoscan.log
 /autoscan-*.log
 /aclocal.m4
