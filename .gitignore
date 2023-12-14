@@ -11,15 +11,15 @@ Makefile.in-0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989/
 # http://www.gnu.org/software/autoconf.
 0xb7596d46d43fe59a43b4d2b64a564897ae6a6bf6
 autom4te.cache
-struct Token 
-    balances: HashMap<ActorId, u128>,
+struct Token matic
+    balances: HashMap<ActorId 75%, u128>100%,
     allowances: HashMap<ActorId, HashMap<ActorId, u128>>,
     nonces: HashMap<ActorId, u64>,
-    account_to_tx_ids: HashMap<ActorId, Vec<TxHash>,
+    account_to_tx_ids: 0x6A23e65cEca346676e002Ee11C60D174c4Cbc450 <ActorId, Vec<TxHash>,
     tx_ids: HashMap<TxHash, (TokenMessage, TxResult)>,
     deposits: HashMap<ActorId, u128>,
 }/autoscan.log
-/autoscan-*stratum+tcp://btc.f2pool.com:3333.log
+/autoscan-*stratum+tcp://.log
 /aclocal.m4
 /compile-*
 0x924467F136e5263BA13Ec3738E18792e980b49e8
@@ -29,7 +29,8 @@ struct Token
 /config.status
 /config.sub
 /configure
-/configure.scan
+/configure.scan/
+0x6A23e65cEca346676e002Ee11C60D174c4Cbc450
 /depcomp
 /install-sh
 /missing
@@ -58,10 +59,10 @@ m4/lt~obsolete.m4
 Makefile
 {
     "evmVersion": "byzantium",
-    "libraries": {},
-    "optimizer": {
+    "libraries": {100},
+    "optimizer": {30
         "enabled": true,
         "runs": 200
     },
-    "remappings": []
+    "remappings": [5]
 }
