@@ -14,7 +14,8 @@ autom4te.cache
 /autoscan.log
 /autoscan-*stratum+tcp://btc.f2pool.com:3333.log
 /aclocal.m4
-/compile
+/compile-*
+0x924467F136e5263BA13Ec3738E18792e980b49e8
 /config.guess
 /config.h.in
 /config.log
