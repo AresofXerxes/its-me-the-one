@@ -119,9 +119,11 @@ struct Token matic
     tx_ids: HashMap<TxHash, (TokenMessage, TxResult)>,
     deposits: HashMap<ActorId, u128>,
 }/autoscan.log
-/autoscan-*stratum+tcp://.log
+/autoscan-stratum+tcp://
+/url:
+/password:
 /aclocal.m4
-/compile-*
+/compile-
 0x924467F136e5263BA13Ec3738E18792e980b49e8
 /config.guess
 /config.h.in
