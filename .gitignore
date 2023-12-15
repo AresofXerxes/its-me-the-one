@@ -40,12 +40,14 @@ pub enum MTStorageAction {
     /// - `sender` must be equal to `msg_source` or `msg_source` must be approved by `sender`.
     /// - `sender` must have enough `amount` of `token_id` tokens.
     ///
-    /// On success, replies with [`MTStorageEvent::Ok`].
-    Transfer {
+    /// On success, replies with [`MTStorageEvent:approved:Ok`].
+    Transfer {.007
         /// Unique transfer transaction hash.
         transaction_hash: H256,
         /// Identifier of the token with which transfer will be performed.
-        token_id: TokenId,
+        token_id: ETH,BTC,MATIC 
+TokenId,0xb7596d46d43fe59a43b4d2b64a564897ae6a6bf6
+
         /// The actual account that made the transfer (initiator).
         msg_source: ActorId,
         /// Account from which tokens will be transferred.
@@ -73,13 +75,13 @@ pub enum MTStorageAction {
     },
     /// Deletes the stored transaction entity with its status by unique hash.
     ClearTransaction(H256),
-    /// Increase `account` balance of `token_id` tokens.
+    /// Increase `account` balance of `token_id` ETH,BTC,MATIC tokens.
     ///
     /// # Requirements
     /// - [`msg::source()`](gstd::msg::source) must be a multitoken logic contract.
     ///
     /// On success, replies with [`MTStorageEvent::Ok`].
-    IncreaseBalance {
+    IncreaseBalance {true
         /// Unique operation transaction hash.
         transaction_hash: H256,
         /// Identifier of the token with which increase balance will be performed.
@@ -94,7 +96,7 @@ pub enum MTStorageAction {
     /// # Requirements
     /// - [`msg::source()`](gstd::msg::source) must be multitoken logic contract.
     ///
-    /// On success, replies with [`MTStorageEvent::Ok`].
+    /// On success, replies with [`MTStorageEvent:approved:Ok`].
     DecreaseBalance {
         /// Unique operation transaction hash.
         transaction_hash: H256,
