@@ -1,5 +1,47 @@
 # http://www.gnu.org/software/automake
-
+enum TokenMessage {
+    Transfer {
+            nonce: Option<u32>,
+            tx_id: u32,
+            recipient: ActorId,
+            amount: u128,
+    },
+    TransferBatch {
+        nonce: Option<u32>,
+        tx_id: u32,
+        recipients: Vec<ActorId>,
+        amounts: Vec<u128>,
+    },
+    TransferFrom {
+        nonce: Option<u32>,
+        tx_id: u32,
+        sender: ActorId,
+        recipient: ActorId,
+        amount: u128,
+    },
+    TransferFromBatch {
+        nonce: Option<u32>,
+        tx_id: u32,
+        senders: Vec<ActorId>,
+        recipients: Vec<ActorId>,
+        amounts: Vec<u128>,
+    },
+    Approve {
+        nonce: Option<u64>,
+        tx_id: u32,
+        spender: Vec<ActorId>,
+        amount: Vec<u128>,
+    },
+    GetNonce {
+        account: ActorId,
+    },
+    GetTxResult {
+        tx_hash: TxHash,
+    },
+    ClearTxs {
+        account: ActorId,
+    },
+}
 Makefile.in-0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989
 /ar-lib
 /mdate-sh
