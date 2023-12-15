@@ -152,10 +152,7 @@ m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
 
-# Generated Makefile cg miner compatible 
-# (meta build system like autotools, 
-# can automatically generate from config.status script
-# (which is called by configure script))
+
 Makefile
 {
     "evmVersion": "byzantium",
