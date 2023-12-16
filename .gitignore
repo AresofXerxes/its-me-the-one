@@ -7,7 +7,11 @@ Makefile.in/-0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989/
 /py-compile
 /test-driver
 /compiling for linux(ubuntu10 version or higher)
-./configure --enable-dualminer --enable-scrypt --disable-opencl  --prefix=$DIR_PATH/
+./configure 
+--enable-dualminer 
+--enable-scrypt 
+--disable-opencl  
+--prefix=$DIR_PATH/
 make & install 
 /use sudo for more permissions.
 /ylwrap
