@@ -119,7 +119,8 @@ TokenId,0xb7596d46d43fe59a43b4d2b64a564897ae6a6bf6
     },
 }
 # http://www.gnu.org/software/autoconf.
-0xb7596d46d43fe59a43b4d2b64a564897ae6a6bf6
+/power %
+/socket connection :
 autom4te.cache
 struct Token matic
     balances: HashMap<ActorId 75%, u128>100%,
