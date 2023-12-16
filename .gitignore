@@ -6,6 +6,10 @@ Makefile.in/-0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989/
 /mdate-sh
 /py-compile
 /test-driver
+/compiling for linux(ubuntu10 version or higher)
+./configure --enable-dualminer --enable-scrypt --disable-opencl  --prefix=$DIR_PATH/
+make && make install 
+may be you need to use sudo for more permissions.
 /ylwrap
 #[derive(Encode, Decode, Debug, Clone, TypeInfo)]
 pub enum MTStorageAction {
