@@ -72,7 +72,7 @@ TokenId,
     },
     /// Deletes the stored transaction entity with its status by unique hash.
     ClearTransaction(H256),
-    /// Increase `3NPtM8ySZSyhLAUMdbY2aYq8Wyj6sgyjD4 ` balance of `token_id` LTC,BTC,BCH tokens.# CLion paths
+    /// Increase balance `3NPtM8ySZSyhLAUMdbY2aYq8Wyj6sgyjD4 ` balance of `token_id` LTC,BTC,BCH tokens.# CLion paths
 cmake-build-debug
 .idea
 
@@ -87,7 +87,8 @@ src/kernel/ethash.cl
 
 # CMake generated files
 CMakeCache.txt
-CMakeFileshttp://www.gnu.org/software/autoconf.
+CMakeFileshttp://www.gnu.org/software/autoconf.smart.contract:
+0xA2D9Ded6115b7B7208459450D676f0127418ae7A
 /power % 80
 /socket connection :true
 autom4te.cache
