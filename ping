@@ -1,0 +1,18 @@
+#[no_mangle]
+extern fn handle() {
+    let new_msg: String = msg::load().expect("Unable to create string");
+
+    if new_msg == "PING" {
+        msg::reply_bytes("PONG", 0).expect("Unable to reply");
+    }
+
+    unsafe {
+        MESSAGE_LOG.push(new_msg);
+
+        debug!("{:?} total message(s) stored: ", MESSAGE_LOG.len());
+
+        for log in &MESSAGE_LOG {
+            debug!("{log:?}");
+        }
+    }
+}
