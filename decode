@@ -1,0 +1,11 @@
+#[derive(Encode, Decode, Clone, Debug, TypeInfo)]
+pub struct MTStorageState {
+    /// Address of multitoken logic contract.
+    pub mt_logic_id: ActorId,
+    /// Stores abstract transactions statuses.
+    pub transaction_status: Vec<(H256, bool)>,
+    /// Mapping with balances: `TokenId` -> `ActorId` -> `u128`.
+    pub balances: Vec<(TokenId, Vec<(ActorId, u128)>)>,
+    /// Mapping with approvals: `ActorId` -> `ActorId` -> `bool`.
+    pub approvals: Vec<(ActorId, Vec<(ActorId, bool)>)>,
+}
