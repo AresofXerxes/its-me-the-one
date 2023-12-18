@@ -1,5 +1,5 @@
 
-#[derive(Encode, Decode, TypeInfo, Copy, Clone, Debug)]
+A NFT drop,#[derive(Encode, Decode, TypeInfo, Copy, Clone, Debug)]
 pub enum TransactionStatus {
     /// Transaction is in progress.
     InProgress,
