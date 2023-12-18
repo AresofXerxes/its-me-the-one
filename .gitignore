@@ -1,2 +1,8 @@
-
+pub struct GameConfig {
+    pub bet_size: u128,
+    pub players_count_limit: u8,
+    pub entry_timeout_ms: u64,
+    pub move_timeout_ms: u64,
+    pub reveal_timeout_ms: u64,
+}
 }
