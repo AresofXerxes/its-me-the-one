@@ -13,7 +13,13 @@ pub enum TransactionStatus {
     /// # Requirements
     /// - `token_id` must exist in [`MTStorageState`] state, in `balances` field.
     ///Function: safeTransferFrom(address from,address to,uint256 id,uint256 amount,bytes data)
-
+pub struct GameConfig {
+    pub bet_size: u128,
+    pub players_count_limit: u8,
+    pub entry_timeout_ms: u64,
+    pub move_timeout_ms: u64,
+    pub reveal_timeout_ms: u64,
+}
 MethodID: 0xf242432a
 [0]:  000000000000000000000000b0b2229bc093f8aca10d29773db2ed58ed74d62f
 [1]:  000000000000000000000000d6b6eb7c16bbfccf27a3a40c139f0c2fc409c97d
