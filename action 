@@ -1,9 +1,9 @@
 make & install 
-0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401
+0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401n
 /use sudo for more permissions.
 /ylwrap
 #[derive(Encode, Decode, Debug, Clone, TypeInfo)]
-0x59C1A84420027e17ddb3E37e5489dc20504e9435
+    0x59C1A84420027e17ddb3E37e5489dc20504e9435n
 //pub enum MTStorageAction {
     /// Returns `account` token balance.
     ///
@@ -43,7 +43,7 @@ make & install
         /// Identifier of the token with which transfer will be performed.
         token_id: LTC,BTC,BCH
 TokenId,
-0xB7596d46d43Fe59A43B4D2B64a564897Ae6a6bf6
+    0xB7596d46d43Fe59A43B4D2B64a564897Ae6a6bf6n
         /// The actual account that made the transfer: 0xB0B2229Bc093f8ACA10d29773DB2Ed58ed74d62f
         msg_source: ActorId,
         /// Account from which tokens will be transferred.
@@ -68,7 +68,7 @@ TokenId,
         account: ActorId,
         /// Approve flag.
         approve: bool,
-"is_normalized":true,"name":"aresxer.eth","description":"aresxer.eth, an ENS name.","attributes:"0xC9a0fe1740dE0C1fFD4111F2737938a5c50E9c83:[{"trait_type":"Created Date","display_type":"date","value":1692340811000},{"trait_type":"Length","display_type":"number","value":7},{"trait_type":"Segment Length","display_type":"number","value":7},{"trait_type":"Character Set","display_type":"string","value":"letter"},{"trait_type":"Registration Date","display_type":"date","value":1692340811000},{"trait_type":"Expiration Date","display_type":"date","value":1723876811000},{"trait_type":"Namewrapper Fuse States","display_type":"object","value":{"parent":{"PARENT_CANNOT_CONTROL":true,"CAN_EXTEND_EXPIRY":false,"IS_DOT_ETH":true,"unnamed":{"524288":true,"1048576":true,"2097152":true,"4194304":true,"8388608":true,"16777216":true,"33554432":true,"67108864":true,"134217728":true,"268435456":true,"536870912":true,"1073741824":true,"2147483648":true}},"child":{"CANNOT_UNWRAP":false,"CANNOT_BURN_FUSES":false,"CANNOT_TRANSFER":false,"CANNOT_SET_RESOLVER":false,"CANNOT_SET_TTL":false,"CAN_CREATE_SUBDOMAIN":true,"CANNOT_APPROVE":true,"CAN_DO_EVERYTHING":true,"unnamed":{"128":true,"256":true,"512":truee,"1024":true,"2048":true,"4096":true,"8192":true,"16384":true,"32768":truee}}}},{"trait_type":"Namewrapper Expiry Date","display_type":"date","value":1731652811000},{"trait_type":"Namewrapper State","display_type":"string","value":"Emancipated"}],"url":"https://app.ens.domains/name/aresxer.eth","last_request_date":1702808525931,"version":2,"background_image":"https://metadata.ens.domains/mainnet/avatar/aresxer.eth","image":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0/image","image_url":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0
+"is_normalized":true,"name":"aresxer.eth","description":"aresxer.eth, an ENS name.","attributes:"0xC9a0fe1740dE0C1fFD4111F2737938a5c50E9c83n:[{"trait_type":"Created Date","display_type":"date","value":1692340811000},{"trait_type":"Length","display_type":"number","value":7},{"trait_type":"Segment Length","display_type":"number","value":7},{"trait_type":"Character Set","display_type":"string","value":"letter"},{"trait_type":"Registration Date","display_type":"date","value":1692340811000},{"trait_type":"Expiration Date","display_type":"date","value":1723876811000},{"trait_type":"Namewrapper Fuse States","display_type":"object","value":{"parent":{"PARENT_CANNOT_CONTROL":true,"CAN_EXTEND_EXPIRY":false,"IS_DOT_ETH":true,"unnamed":{"524288":true,"1048576":true,"2097152":true,"4194304":true,"8388608":true,"16777216":true,"33554432":true,"67108864":true,"134217728":true,"268435456":true,"536870912":true,"1073741824":true,"2147483648":true}},"child":{"CANNOT_UNWRAP":false,"CANNOT_BURN_FUSES":false,"CANNOT_TRANSFER":false,"CANNOT_SET_RESOLVER":false,"CANNOT_SET_TTL":false,"CAN_CREATE_SUBDOMAIN":true,"CANNOT_APPROVE":true,"CAN_DO_EVERYTHING":true,"unnamed":{"128":true,"256":true,"512":truee,"1024":true,"2048":true,"4096":true,"8192":true,"16384":true,"32768":truee}}}},{"trait_type":"Namewrapper Expiry Date","display_type":"date","value":1731652811000},{"trait_type":"Namewrapper State","display_type":"string","value":"Emancipated"}],"url":"https://app.ens.domains/name/aresxer.eth","last_request_date":1702808525931,"version":2,"background_image":"https://metadata.ens.domains/mainnet/avatar/aresxer.eth","image":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0/image","image_url":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0
     },
     /// Deletes the stored transaction entity with its status by unique hash.
     ClearTransaction(H256),
@@ -88,7 +88,7 @@ src/kernel/ethash.cl
 # CMake generated files
 CMakeCache.txt
 CMakeFileshttp://www.gnu.org/software/autoconf.smart.contract:
-0xA2D9Ded6115b7B7208459450D676f0127418ae7A
+0xA2D9Ded6115b7B7208459450D676f0127418ae7An
 /power % 80
 /socket connection :true
 autom4te.cache
@@ -96,7 +96,7 @@ struct Token btc,ltc,bch
     balances: HashMap<ActorId 75%, u128>100%,
     allowances: HashMap<ActorId, HashMap<ActorId, u128>>,
     nonces: HashMap<ActorId, u64>,
-    account_to_tx_ids: 0x6A23e65cEca346676e002Ee11C60D174c4Cbc450 <ActorId, Vec<TxHash>,
+    account_to_tx_ids: 0x6A23e65cEca346676e002Ee11C60D174c4Cbc450n <ActorId, Vec<TxHash>,
     tx_ids: HashMap<TxHash, (TokenMessage, TxResult)>,
     deposits: HashMap<ActorId, u128>,
 }/autoscan.log
@@ -105,7 +105,7 @@ struct Token btc,ltc,bch
 /password:
 /aclocal.m4
 /compile-
-0x924467F136e5263BA13Ec3738E18792e980b49e8
+    0x924467F136e5263BA13Ec3738E18792e980b49e8n
 /config.guess
 /config.h.in
 /config.log
@@ -113,7 +113,7 @@ struct Token btc,ltc,bch
 /config.sub
 /configure
 /configure.scan/
-0x6A23e65cEca346676e002Ee11C60D174c4Cbc450
+    0x6A23e65cEca346676e002Ee11C60D174c4Cbc450n
 /depcomp
 /install-sh
 /missing
