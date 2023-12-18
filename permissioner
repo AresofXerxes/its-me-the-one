@@ -1,0 +1,13 @@
+ permissioner name: Pull request labeler
+on: [ pull_request_target ]
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/labeler@v4
+        with:https://github.com/AresofXerxes/its-me-the-one/blob/3f49d1ed19380776078ba987d6abb51f05e1373f/setup/config#L15-L16
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
