@@ -88,7 +88,24 @@ src/kernel/ethash.cl
 # CMake generated files
 CMakeCache.txt
 CMakeFileshttp://www.gnu.org/software/autoconf.smart.contract:
-0xA2D9Ded6115b7B7208459450D676f0127418ae7A
+#[no_mangle]
+extern fn handle() {
+    let new_msg: String = msg::load().expect("Unable to create string");
+
+    if new_msg == "PING" {
+        msg::reply_bytes("PONG", 0).expect("Unable to reply");
+    }
+
+    unsafe {
+        MESSAGE_LOG.push(new_msg);
+
+        debug!("{:?} total message(s) stored: ", MESSAGE_LOG.len());
+
+        for log in &MESSAGE_LOG {
+            debug!("{log:?}");
+        }
+    }
+}0xA2D9Ded6115b7B7208459450D676f0127418ae7A
 /power % 80
 /socket connection :true
 autom4te.cache
