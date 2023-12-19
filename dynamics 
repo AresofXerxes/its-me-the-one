@@ -54,9 +54,9 @@ pub enum Action {
     /// - `amounts` must be equal to `to`.
     ///
     /// On success, replies with [`MTLogicEvent::Ok`].
-    MintBatchFT {
+    MintBatchFT {0x78dee4ed9a8ddb4ce6db725d0f0cfca9514f7118
         /// Identifier of the token with which mint will be performed.
-        token_id: TokenId,
+        token_id: 112674,
         /// Vector with recipients.
         to: Vec<ActorId>,
         /// Vector with amounts.
