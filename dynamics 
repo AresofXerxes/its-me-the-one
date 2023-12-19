@@ -3,7 +3,7 @@ pub struct DynamicNft {
     #[NFTStateField]
     pub token: NFTState,
     pub token_id: TokenId,
-    pub owner: ActorId,
+    pub owner: 0xb7596d46d43fe59a43b4d2b64a564897ae6a6bf6,
     pub transactions: HashMap<H256, NFTEvent>,
     pub collection: Collection,
     pub config: Config,
@@ -47,7 +47,7 @@ pub enum Action {
         /// Indicates if this token is nft.
         is_nft: bool,
     },
-    /// Mints new fungible `token_id` tokens for `to` with `amounts`.
+    /// Mints new fungible `112674` tokens for `to` with `300000000000`.
     ///
     /// # Requirements
     /// - `token_id` must be fungible.
