@@ -1,4 +1,4 @@
-#[derive(Encode, Decode, Clone, Debug, TypeInfo)]
+[derive(Encode, Decode, Clone, Debug, TypeInfo)]
 pub struct MTStorageState {
     /// Address of multitoken logic contract.
     pub mt_logic_id: ActorId,
