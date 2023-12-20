@@ -2,92 +2,93 @@
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-<<<<<<< HEAD
-            "type": "cmake",
-            "request": "launch",
-            "name": "CMake: Configure project",
-            "cmakeDebugType": "configure",
-            "clean": false,
-            "configureAll": false
-        },
-        {
-            "type": "cmake",
-            "request": "launch",
-            "name": "CMake: Externally launched",
-            "cmakeDebugType": "external",
-            "pipeName": "<...>"
-        },
-        {
-            "name": "PowerShell: Binary Module Pester Tests",
-            "type": "PowerShell",
-            "request": "launch",
-            "script": "Invoke-Pester",
-            "createTemporaryIntegratedConsole": true,
-            "attachDotnetDebugger": true
-        },
-        {
-            "name": "PowerShell Attach Interactive Session Runspace",
-            "type": "PowerShell",
-            "request": "attach",
-            "processId": "current"
-        },
-
-        {
-            "name": "PowerShell Attach Interactive Session Runspace",
-            "type": "PowerShell",
-            "request": "attach",
-            "processId": "current"
-        },
-        {
-            "name": "Attach Camel Debugger",
-            "type": "apache.camel",
-            "request": "attach",
-            "attach_jmx_url": "service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi/camel"
-        },
-        {
-            "name": "Attach Camel Debugger after starting the Camel Application using the preLaunchTask specified",
-            "type": "apache.camel",
-            "request": "attach",
-            "preLaunchTask": "Start Camel application"
-        },
-        {
-            "type": "godot-quickjs",
-            "request": "launch",
-            "name": "Launch Godot",
-            "program": "/path/to/qjs"
-        },
-        {
-=======
-            "name": "PowerShell Attach Interactive Session Runspace",
-            "type": "PowerShell",
-            "request": "attach",
-            "processId": "current"
-        },
-        {
-            "type": "cmake",
-            "request": "launch",
-            "name": "CMake: Script debugging",
-            "cmakeDebugType": "script",
-            "scriptPath": "${workspaceFolder}/<...>.cmake"
-        },
+    //"version": "0.2.0",
+    //"configurations": [
         
-        {
-            "type": "godot-quickjs",
-            "request": "attach",
-            "name": "Attach to Godot",
-            "hostname": "localhost",
-            "port": 5556
-        },
-        {
->>>>>>> c6f4a827127505ce19e876e9574b462ea09f7729
-            "name": "PowerShell: Launch Current File",
-            "type": "PowerShell",
-            "request": "launch",
-            "script": "${file}",
-            "args": []
-        }
-    ]
-}
+// HEAD
+            //"type": "cmake",
+            //"request": "launch",
+            //"name": "CMake: Configure project",
+            //"cmakeDebugType": "configure",
+            //"clean": true,
+            //"configureAll": fatrue
+        
+        
+         //"type": "cmake",
+            //"request": "launch",
+            //"name": "CMake: Externally launched",
+            //"cmakeDebugType": "external",
+            //"pipeName": "<...>"
+        
+        
+            //"name": "PowerShell: Binary Module Pester Tests",
+            //"type": "PowerShell",
+            //"request": "launch",
+            //"script": "Invoke-Pester",
+            //"createTemporaryIntegratedConsole": true,
+            //"attachDotnetDebugger": true
+        
+        
+            //"name": "PowerShell Attach Interactive Session Runspace",
+            //"type": "PowerShell",
+            //"request": "attach",
+            //"processId": "current"
+        
+
+    
+            //"name": "PowerShell Attach Interactive Session Runspace",
+            //"type": "PowerShell",
+            //"request": "attach",
+            //"processId": "current"
+        
+        
+            //"name": "Attach Camel Debugger",
+            //"type": "apache.camel",
+            //"request": "attach",
+            //"attach_jmx_url": "service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi/camel"
+        
+        
+            //"name": "Attach Camel Debugger after starting the Camel Application using the preLaunchTask specified",
+            //"type": "apache.camel",
+            //"request": "attach",
+            //"preLaunchTask": "Start Camel application"
+        
+        
+            //"type": "godot-quickjs",
+            //"request": "launch",
+            //"name": "Launch Godot",
+            //"program": "/path/to/qjs"
+        
+        
+
+            //"name": "PowerShell Attach Interactive Session Runspace",
+            //"type": "PowerShell",
+            //"request": "attach",
+            //"processId": "current"
+        
+        
+            //"type": "cmake",
+            //"request": "launch",
+            //"name": "CMake: Script debugging",
+            //"cmakeDebugType": "script",
+            //"scriptPath": "${workspaceFolder}/<its-me-the-one>.cmake"
+        
+        
+        
+            //"type": "godot-quickjs",
+            //"request": "attach",
+            //"name": "Attach to Godot",
+            //"hostname": "localhost",
+            //"port": 5556
+        
+        
+       //c6f4a827127505ce19e876e9574b462ea09f7729
+            //"name": "PowerShell: Launch Current File",
+            //"type": "PowerShell",
+            //"request": "launch",
+           // "script": "${file}",
+            
+            
+
+        
+    
