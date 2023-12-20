@@ -1,5 +1,5 @@
-make & install 
-÷//0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401n
+[make & install]
+//0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401n
 //use sudo for more permissions.
 //ylwrap
 #[derive(Encode, Decode, Debug, Clone, TypeInfo)]
