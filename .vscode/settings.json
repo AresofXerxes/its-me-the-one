@@ -1,4 +1,4 @@
-{
+//{
     //"cmake.options.statusBarVisibility": //"visible",
     //"files.autoSave":// "automatically",
     //"editor.renderWhitespace": //"all",
@@ -7,4 +7,4 @@
     //"editor.columnSelection": true,
     //"editor.definitionLinkOpensInPeek": true,
     //"editor.experimental.asyncTokenizationLogging": true
-}
+//}
