@@ -1,51 +1,72 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "shell",
-			"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,-Dorg.apache.camel.debugger.suspend=true,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,--dep=org.apache.camel:camel-debug,,,",
-			"problemMatcher": [
-				"$camel.debug.problemMatcher"
-			],
-			"label": "camel: Start Camel application with debug enabled with JBang"
-		},
-		{
-			"type": "shell",
-			"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,",
-			"problemMatcher": [],
-			"label": "camel: Run Camel application with JBang",
-			"group": {
-				"kind": "build",
-				"isDefault": true
+	//"version": "2.0.0",
+	//"tasks": [
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,-Dorg.apache.camel.debugger.suspend=true,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,--dep=org.apache.camel:camel-debug,,,",
+			//"problemMatcher": [
+				//"$camel.debug.problemMatcher"
+			
+			//"label": "camel: Start Camel application with debug enabled with JBang"
+		
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,",
+			//"problemMatcher": [],
+			//"label": "camel: Run Camel application with JBang",
+			//"group": {
+				//"kind": "build",
+				//"isDefault": true
+			
+		
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,-Dorg.apache.camel.debugger.suspend=true,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,--dep=org.apache.camel:camel-debug,,,",
+			//"problemMatcher": [
+				//"$camel.debug.problemMatcher"
+			
+			//"label": "camel: Start Camel application with debug enabled with JBang",
+			//"group": {
+				//"kind": "build",
+				//"isDefault": true
 			}
-		},
-		{
-			"type": "shell",
-			"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,-Dorg.apache.camel.debugger.suspend=true,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,--dep=org.apache.camel:camel-debug,,,",
-			"problemMatcher": [
-				"$camel.debug.problemMatcher"
-			],
-			"label": "camel: Start Camel application with debug enabled with JBang",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		},
-		{
-			"type": "shell",
-			"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,",
-			"problemMatcher": [
-				"$jshint"
-			],
-			"label": "camel: Run Camel application with JBang"
-		},
-		{
-			"type": "shell",
-			"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,",
-			"problemMatcher": [
-				"$eslint-compact"
-			],
-			"label": "camel: Run Camel application with JBang"
-		}
-	]
-}
+		
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,",
+			//"problemMatcher": [
+				//"$jshint"
+			
+			//"label": "camel: Run Camel application with JBang"
+		
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,",
+			//"problemMatcher": [
+				//"$eslint-compact"
+			
+			//"label": "camel: Run Camel application with JBang"
+		
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,-Dorg.apache.camel.debugger.suspend=true,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,--dep=org.apache.camel:camel-debug,,,",
+			//"problemMatcher": [
+				//"$camel.debug.problemMatcher"
+			
+			//"label": "camel: Start Camel application with debug enabled with JBang"
+		
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,",
+			//"problemMatcher": [],
+			//"label": "camel: Run Camel application with JBang"
+		
+		
+			//"type": "shell",
+			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,-Dorg.apache.camel.debugger.suspend=true,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,--dep=org.apache.camel:camel-debug,,,",
+			//"problemMatcher": [
+				//"$camel.debug.problemMatcher"
+			
+			//"label": "camel: Start Camel application with debug enabled with JBang"
+		
+	
