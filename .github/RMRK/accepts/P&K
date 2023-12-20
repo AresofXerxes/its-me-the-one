@@ -1,0 +1,17 @@
+/// Accepts an RMRK child being in the `Pending` status.
+/// Removes RMRK child from `pending_children` and adds it to `accepted_children`.
+///
+/// # Requirements:
+/// * The `msg::source()` must be an RMRK owner of NFT with tokenId `parent_token_id` or an approved account.
+/// * The indicated NFT with tokenId `child_token_id` must exist in the pending array of `parent_token_id`.
+///
+/// # Arguments:
+/// * `parent_token_id`: is the tokenId of the parent NFT
+/// * `child_token_id`: is the tokenId of the child instance
+///
+/// On success replies [`RMRKEvent::AcceptedChild`].
+AcceptChild {
+    parent_token_id: TokenId,
+    child_contract_id: ActorId,
+    child_token_id: TokenId,
+},
