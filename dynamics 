@@ -1,4 +1,4 @@
-#[derive(Debug, Default, NFTStateKeeper, NFTCore, NFTMetaState)]
+[derive(Debug, Default, NFTStateKeeper, NFTCore, NFTMetaState)]
 pub struct DynamicNft {
     #[NFTStateField]
     pub token: NFTState,
