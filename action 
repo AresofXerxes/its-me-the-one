@@ -1,48 +1,48 @@
-[derive(Debug, Encode, Decode, TypeInfo, Clone)]
-//pub enum MTLogicAction {
+#[derive(Debug, Encode, Decode, TypeInfo, Clone)]
+pub enum MTLogicAction {
     /// Handles high-level token operations.
-/ Message 
+    Message {
         /// Unique operation transaction hash.
         transaction_hash: H256,
         /// The actual account that made the operation (initiator).
-        account/ ActorId,
+        account: ActorId,
         /// Encoded high-level [`Action`] operation.
-        payload/ Vec<u8>
-    
+        payload: Vec<u8>,
+    },
     /// Returns `account` token balance.
     ///
     /// # Requirements
     /// - `token_id` must exist in [`MTStorageState`](mt_storage_io::MTStorageState) state, in `balances` field.
     ///
     /// On success, replies with [`MTLogicEvent::Balance`].
-    GetBalance 
+    GetBalance {
         /// Token ID to get the balance.
         token_id: TokenId,
         /// Specifies the account whose balance you want to find out.
-        account/ ActorId,
-    
+        account: ActorId,
+    },
     /// Returns status approval for `approval_target` from `account`.
     ///
     /// # Requirements
     /// - `account` must exists in [`MTStorageState`](mt_storage_io::MTStorageState) state, in `approvals` field.
     ///
     /// On success, replies with [`MTLogicEvent::Approval`].
-//GetApproval {
+    GetApproval {
         /// An account that provides approval.
-        account/ ActorId,
+        account: ActorId,
         /// An account that is being verified.
-        approval_target/ ActorId,
-    
+        approval_target: ActorId,
+    },
     /// Deletes the stored transaction entity with its status by unique hash.
     Clear(H256),
     /// Updates unique hash-identifier of storage contract code.
     UpdateStorageCodeHash(H256),
     /// Unimplemented.
     MigrateStorages,
-
-        msg_source/ ActorId,
+}
+        msg_source: ActorId,
         /// Account to which access is granted.
-        account /Actor/Id,
+        account /Actor:Id,
         /// Approve flag.
         approve/ bool,
 //"is_normalized."Namewrapper":"aresxer.eth[description/aresxer.eth, an ENS name.]"attributes:"[{"trait_type":"Created Date","display_type":"date","value":1692340811000},{"trait_type":"Length","display_type":"number","value":7},{"trait_type":"Segment Length","display_type":"number","value":7},{"trait_type":"Character Set","display_type":"string","value":"letter"},{"trait_type":"Registration Date","display_type":"date","value":1692340811000},{"trait_type":"Expiration Date","display_type":"date","value":1723876811000},"trait_type":"Namewrapper Fuse States","display_type":"object","value":"parent":"PARENT_CANNOT_CONTROL":true,"CAN_EXTEND_EXPIRY":false,"IS_DOT_ETH":true,"unnamed":{"524288":true,"1048576":true,"2097152":true,"4194304":true,"8388608":true,"16777216":true-"33554432{"//trait_type":"Namewrapper Expiry Date","display_type":"date","value"-1731652811000},{"trait_type":"Namewrapper State","display_type":"string","value":"Emancipated"}],"url"-"https://app.ens.domains/name/aresxer.eth","last_request_date":1702808525931,"version"2,"background_image":"https://metadata.ens.domains/mainnet/avatar/aresxer.eth","image":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0/image","image_url":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0
