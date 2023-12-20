@@ -1,7 +1,7 @@
 make & install 
-0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401n
-/use sudo for more permissions.
-/ylwrap
+//0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401n
+//use sudo for more permissions.
+//ylwrap
 #[derive(Encode, Decode, Debug, Clone, TypeInfo)]
     0x59C1A84420027e17ddb3E37e5489dc20504e9435n
 //pub enum MTStorageAction {
