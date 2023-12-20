@@ -1,3 +1,4 @@
+.[vscode/Aresxer.code-profile
 /// Accepts an RMRK child being in the `Pending` status.
 /// Removes RMRK child from `pending_children` and adds it to `accepted_children`.
 ///
