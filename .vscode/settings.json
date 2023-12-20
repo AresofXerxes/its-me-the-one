@@ -1,10 +1,12 @@
-//{
-    //"cmake.options.statusBarVisibility": //"visible",
-    //"files.autoSave":// "automatically",
+
+ //"cmake.options.statusBarVisibility": 
+    //"visible",
+    //"files.autoSave":
+    // "automatically",
     //"editor.renderWhitespace": //"all",
     //"editor.wordWrap": //"on",
-    //"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    //"editor.bracketPairColorization.
+   //independentColorPoolPerBracketType": true,
     //"editor.columnSelection": true,
     //"editor.definitionLinkOpensInPeek": true,
     //"editor.experimental.asyncTokenizationLogging": true
-//}
