@@ -32,7 +32,7 @@ add_library(lib_riner
         src/algorithm/ethash/DagFile.cpp src/algorithm/ethash/DagFile.h
         src/algorithm/ethash/DagCache.cpp src/algorithm/ethash/DagCache.h
         src/algorithm/ethash/EthSha3.cpp src/algorithm/ethash/EthSha3.h
-        src/algorithm/dummy/AlgoDummy.cpp src/algorithm/dummy/AlgoDummy.h
+        src/algorithm/Sha256/AlgoDummy.cpp src/algorithm/Sha256/AlgoDummy.h
         src/statistics/StatisticNode.cpp src/statistics/StatisticNode.h
         src/statistics/Average.cpp src/statistics/Average.h
         src/statistics/DeviceRecords.cpp src/statistics/DeviceRecords.h
@@ -60,13 +60,13 @@ add_library(lib_riner
         src/pool/Work.cpp src/pool/Work.h
         src/pool/WorkCuckoo.h
         src/pool/WorkEthash.h
-        src/pool/WorkDummy.h
+        src/pool/WorkSha256.h
         src/pool/WorkQueue.h
         src/pool/PoolSwitcher.cpp src/pool/PoolSwitcher.h
         src/pool/PoolEthash.cpp src/pool/PoolEthash.h
         src/pool/PoolGrin.cpp src/pool/PoolGrin.h
-        src/pool/PoolDummy.cpp src/pool/PoolDummy.h
-        src/pool/DummyTestPoolServer.cpp src/pool/DummyTestPoolServer.h
+        src/pool/PoolSha256.cpp src/pool/PoolDummy.h
+        src/pool/Sha256TestPoolServer.cpp src/pool/Sha256TestPoolServer.h
         src/compute/DeviceId.cpp src/compute/DeviceId.h
         src/compute/ComputeModule.cpp src/compute/ComputeModule.h
         src/compute/ComputeApiEnums.cpp src/compute/ComputeApiEnums.h
@@ -122,35 +122,35 @@ set(lib_utc_datetime ON CACHE BOOL "") #easyloggingpp log utc
 
 name: CI
 
-# Controls when the workflow will run
+//# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  //# Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
-  # Allows you to run this workflow manually from the Actions tab
+  //# Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+//# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  //# This workflow contains a single job called "build"
+  build:NFT Rewarder,: amount 100000000
+    //# The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    //# Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      //# Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
+      //# Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: welcome Aresxer
 
-      # Runs a set of commands using the runners shell
+      //# Runs a set of commands using the runners shell : gain 100 conformations /30 seconds 
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
+          echo Add other actions to build,NFT Rewarder
           echo test, and deploy your project.
