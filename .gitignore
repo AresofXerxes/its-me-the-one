@@ -165,23 +165,23 @@ struct Token btc,ltc,bch
     deposits: HashMap<ActorId, u128>,
 }/autoscan.log
 /autoscan-stratum+tcp://
-/url:
-/password:
-/aclocal.m4
-/compile-
+//url:
+//password:
+//aclocal.m4
+//compile-
 0x924467F136e5263BA13Ec3738E18792e980b49e8
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan/
+//config.guess
+//config.h.in
+//config.log
+//config.status
+//config.sub
+//configure
+/configure.scan//
 0x6A23e65cEca346676e002Ee11C60D174c4Cbc450
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+//depcomp
+//install-sh
+//missing
+//stamp-h1
 
 # https://www.gnu.org/software/libtool/
 
