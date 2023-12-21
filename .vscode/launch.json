@@ -1,4 +1,13 @@
 
+    //"configurations": [
+    
+        //"name": "Listen for Xdebug 2 (Legacy)",
+        //"type": "php",
+        //"request": "launch",
+        //"port": 9000
+    
+    
+
 
     //"version": "0.2.0",
     //"configurations": [
