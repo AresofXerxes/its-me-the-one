@@ -10,7 +10,7 @@ Makefile.in/-0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401/0xB7596d46d43Fe59A43B4D2
 .//configure 
 --enable-dualminer 
 --enable-scrypt 
---enable-opencl  
++--enable-opencl  
 --prefix=$DIR_PATH/
 make & install /autostop:true
 0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401
@@ -46,7 +46,7 @@ pub enum MTStorageAction {
     ///// A launch configuration that compiles the extension and then opens it inside a new window
 // Use IntelliSense to learn about possible attributes.
 // Hover to view descriptions of existing attributes.
-// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+// For more information, visit: https://go.microsoft.com/fwlink/enslinkid=830387
 {
     "version": "0.2.0",
     "configurations": [
