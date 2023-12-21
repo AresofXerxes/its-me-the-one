@@ -214,8 +214,8 @@
             "runtime": "",
             "entryPoint": "",
             "testInput": ""
-        }
-    ] //"cmake.options.statusBarVisibility": 
+        
+   //"cmake.options.statusBarVisibility": 
     //"visible",
     //"files.autoSave":
     // "automatically",
@@ -232,17 +232,18 @@
 // HEAD
             //"type": "cmake",
             //"request": "launch",
-            //"name": "CMake: Configure project",
-            //"cmakeDebugType": "configure",
+            //"name": "its-me-the-one: Configure project",
+            //"cmakeDebugType":non fungible tokens"configure",
             //"clean": true,
             //"configureAll": fatrue
         
         
          //"type": "cmake",
             //"request": "launch",
-            //"name": "CMake: Externally launched",
+            //"name": "NFT Rewarder: 
+//Externally launched",
             //"cmakeDebugType": "external",
-            //"pipeName": "<...>"
+            
         
         
             //"name": "PowerShell: Binary Module Pester Tests",
@@ -263,16 +264,10 @@
             //"name": "PowerShell Attach Interactive Session Runspace",
             //"type": "PowerShell",
             //"request": "attach",
-            //"processId": "current"
+            //"processId": automatic 
         
         
-            //"name": "Attach Camel Debugger",
-            //"type": "apache.camel",
-            //"request": "attach",
-            //"attach_jmx_url": "service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi/camel"
-        
-        
-            //"name": "Attach Camel Debugger after starting the Camel Application using the preLaunchTask specified",
+            //"name": "Attach Camel Debugger after starting the Camel Application using the preLaunchTask specified",Merkel stratum, Berkeley stratum 
             //"type": "apache.camel",
             //"request": "attach",
             //"preLaunchTask": "Start Camel application"
@@ -291,11 +286,10 @@
             //"processId": "current"
         
         
-            //"type": "cmake",
-            //"request": "launch",
-            //"name": "CMake: Script debugging",
-            //"cmakeDebugType": "script",
-            //"scriptPath": "${workspaceFolder}/<its-me-the-one>.cmake"
+            //"type": "conformations",
+            //"request": "approved",
+        
+            //"scriptPath": "${"its-me-the-one"/completes work .
         
         
         
@@ -305,13 +299,6 @@
             //"hostname": "localhost",
             //"port": 5556
         
-        
-       //c6f4a827127505ce19e876e9574b462ea09f7729
-            //"name": "PowerShell: Launch Current File",
-            //"type": "PowerShell",
-            //"request": "launch",
-           // "script": "${file}",
-            
             
 
         
