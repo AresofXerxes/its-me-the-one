@@ -3,7 +3,7 @@
 //use sudo for more permissions.
 //ylwrap
 #[derive(Encode, Decode, Debug, Clone, TypeInfo)]
-    +//+0x59C1A84420027e17ddb3E37e5489dc20504e9435n
+//identify/+0x59C1A84420027e17ddb3E37e5489dc20504e9435n
 //pub enum MTStorageAction {
     /// Returns `account` token balance.
     ///
