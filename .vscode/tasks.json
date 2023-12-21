@@ -12,7 +12,7 @@
 		
 	
 
-	//"tasks": [
+	        //"tasks": 
 		
 			//"type": "shell",
 			//"id": "shell,jbang,-Dcamel.jbang.version=4.2.0,-Dorg.apache.camel.debugger.suspend=true,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,--dep=org.apache.camel:camel-debug,,,",
