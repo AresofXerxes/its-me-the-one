@@ -81,7 +81,7 @@ pub enum MTStorageAction {
     /// - [`msg::source()`](gstd::msg::source) must be a multitoken logic contract.
     /// - `sender` must be equal to `msg_source` or `msg_source` must be approved by `sender`.
     /// - `sender` must have enough `amount` of `token_id` tokens.
-    ///
+    
     /// On success, replies with [`MTStorageEvent:approved:Ok`].
     Transfer {.007
         /// Unique transfer transaction hash.
