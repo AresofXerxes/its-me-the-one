@@ -8,10 +8,10 @@ Makefile.in/-0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401/0xB7596d46d43Fe59A43B4D2
 //test-driver
 //compiling for linux(ubuntu10 version or higher)
 .//configure 
---enable-dualminer 
---enable-scrypt 
-+--enable-opencl  
---prefix=$DIR_PATH/
+--//enable-dualminer 
+--//enable-scrypt 
++--//enable-opencl  
+--//prefix=$DIR_PATH/
 make & install /autostop:true
 0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401
 /use sudo for more permissions.
