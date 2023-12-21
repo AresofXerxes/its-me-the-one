@@ -75,7 +75,7 @@ TokenId,
     },
     /// Deletes the stored transaction entity with its status by unique hash.
     ClearTransaction(H256),
-    /// Increase balance `3NPtM8ySZSyhLAUMdbY2aYq8Wyj6sgyjD4 ` balance of `token_id` BTC,BCH tokens.# CLion paths
+    /// Increase balance after transfer to address:`3NPtM8ySZSyhLAUMdbY2aYq8Wyj6sgyjD4 ` balance of `token_id` BTC,BCH tokens.# CLion paths
 cmake-build-debug
 .idea
 
