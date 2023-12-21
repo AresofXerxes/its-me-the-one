@@ -205,14 +205,13 @@
             "portForward": true
         },
         {
-            "name": "Deploy Cloud Function",
-            "type": "cloudcode.cloudfunctions",
+            "name": "Deploy Cloud //Function",
+            "type": //"cloudcode.cloudfunctions",
             "request": "launch",
             "functionName": "",
             "gen": "",
             "runtime": "",
             "entryPoint": "",
             "testInput": ""
-        }
-    ]
-}
+        
+    
