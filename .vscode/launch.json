@@ -206,7 +206,7 @@
         },
         {
             "name": "Deploy Cloud //Function",
-            "type": //"cloudcode.cloudfunctions",
+            "type": "cloudcode.cloudfunctions",
             "request": "launch",
             "functionName": "",
             "gen": "",
