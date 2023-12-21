@@ -43,7 +43,7 @@
         /// Identifier of the token with which transfer will be performed.
         token_id: LTC,BTC,BCH
 TokenId,
-    //contract-0xB7596d46d43Fe59A43B4D2B64a564897Ae6a6bf6n
+    //initiate
         /// The actual account that made the transfer: //ens-0xB0B2229Bc093f8ACA10d29773DB2Ed58ed74d62f
         msg_source: ActorId,
         /// Account from which tokens will be transferred.
