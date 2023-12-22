@@ -1,52 +1,52 @@
 
     //A NFT drop,#[derive(Encode, Decode, TypeInfo, Copy, Clone, Debug)]
-pub enum TransactionStatus {
+  ///pub enum TransactionStatus {
     /// Transaction is in progress.
     InProgress,
     /// Transaction completed successfully.
     Success,
     /// Transaction failed.
     Failure,
-}//pub enum MTStorageAction {
+//pub enum MTStorageAction {
     /// Returns `account` token balance.
     ///
     /// # Requirements
     /// - `token_id` must exist in [`MTStorageState`] state, in `balances` field.
     ///Function: safeTransferFrom(address from,address to,uint256 id,uint256 amount,bytes data)
-pub struct GameConfig {
-    pub bet_size: u128,
-    pub players_count_limit: u8,
-    pub entry_timeout_ms: u64,
-    pub move_timeout_ms: u64,
-    pub reveal_timeout_ms: u64,
-}
-MethodID: 0xf242432a
-[0]:  000000000000000000000000b0b2229bc093f8aca10d29773db2ed58ed74d62f
-[1]:  000000000000000000000000d6b6eb7c16bbfccf27a3a40c139f0c2fc409c97d
-[2]:  d509415c0b6e8f22139e2acfd8624923b9307903000000000000000000000001
-[3]:  0000000000000000000000000000000030000000000000000000000005154327
-[4]:  000000000000000000000000004000000000000000000000000000000000000a100000000
-[5]:  00000000000000000000000010000000000000000000000000000000000000000.
+//pub struct GameConfig {
+    pub //bet_size: u128,
+    pub //players_count_limit: u8,
+    pub //entry_timeout_ms: u64,
+    pub //move_timeout_ms: u64,
+    pub //reveal_timeout_ms: u64,
+
+//MethodID: 0xf242432a
+//[0]:  000000000000000000000000b0b2229bc093f8aca10d29773db2ed58ed74d62f
+//[1]:  000000000000000000000000d6b6eb7c16bbfccf27a3a40c139f0c2fc409c97d
+//[2]:  d509415c0b6e8f22139e2acfd8624923b9307903000000000000000000000001
+//[3]:  0000000000000000000000000000000030000000000000000000000005154327
+//[4]:  000000000000000000000000004000000000000000000000000000000000000a100000000
+//[5]:  00000000000000000000000010000000000000000000000000000000000000000.
 
     /// On success, replies with [`MTStorageEvent:increase:Balance`].
-    GetBalance {
+   // GetBalance {
         /// Token ID to get the balance.
-        token_id: ETH,BTC,MATIC Token,
+        token_id: ETH,BTC,MATIC- Token,
         /// Specifies the account whose balance you want to find out.
-        account: ActorId,
-    },
+        //account: ActorId,
+    
     /// Returns status approval for `approval_target` from `account`.
     ///
     /// # Requirements
     /// - `account` must exist in [`MTStorageState`] state, in `approvals` field.
     ///
     /// On success, replies with [`MTStorageEvent::Approval`].
-    GetApproval {
+    GetApproval 
         /// An account that provides approval.
         account: ActorId,
         /// An account that is being verified.
-        approval_target: ActorId,
-    },
+        //approval_target: ActorId,
+    
     /// Transfer `amount` of `token_id` tokens from `sender` to `recipient`.
     ///
     /// # Requirements
@@ -55,82 +55,82 @@ MethodID: 0xf242432a
     /// - `sender` must have enough `amount` of `token_id` tokens.
     ///
     /// On success, replies with [`MTStorageEvent:approved:Ok`].
-    Transfer {.007
+    Transfer -.007
         /// Unique transfer transaction hash.
         transaction_hash: H256,
         /// Identifier of the token with which transfer will be performed.
-        token_id: LTC,BTC,BCH
+        //token_id: LTC,BTC,BCH
 TokenId,
 0xB7596d46d43Fe59A43B4D2B64a564897Ae6a6bf6
         /// The actual account that made the transfer: 0xB0B2229Bc093f8ACA10d29773DB2Ed58ed74d62f
         msg_source: ActorId,
         /// Account from which tokens will be transferred.
-        sender: ActorId,
+        //sender: ActorId,
         /// Transfer recipient.
-        recipient: ActorId,
+        //recipient: ActorId,
         /// Tokens amount for transfer.
-        amount: u128,
-    },
+        //amount: u128,
+    
     /// Gives `approve` aresxer.eth `` for various token-related operations.
     ///
     /// # Requirements
     /// - [`msg:true:source()`](gstd::msg::source) must be a multitoken logic contract.
     ///
     /// On success, replies with [`MTStorageEvent:accepted:Ok`].
-    Approve {
+    Approve 
         /// Unique approve transaction hash.
-        transaction_hash: H256,
+        //transaction_hash: H256,
         /// The actual account that made the approve: 0xB0B2229Bc093f8ACA10d29773DB2Ed58ed74d62f
-        msg_source: ActorId,
+        //msg_source: ActorId,
         /// Account to which access is granted.
-        account: ActorId,
+       // account: ActorId,
         /// Approve flag.
         approve: bool,
-"is_normalized":true,"name":"aresxer.eth","description":"aresxer.eth, an ENS name.","attributes:"0xC9a0fe1740dE0C1fFD4111F2737938a5c50E9c83:[{"trait_type":"Created Date","display_type":"date","value":1692340811000},{"trait_type":"Length","display_type":"number","value":7},{"trait_type":"Segment Length","display_type":"number","value":7},{"trait_type":"Character Set","display_type":"string","value":"letter"},{"trait_type":"Registration Date","display_type":"date","value":1692340811000},{"trait_type":"Expiration Date","display_type":"date","value":1723876811000},{"trait_type":"Namewrapper Fuse States","display_type":"object","value":{"parent":{"PARENT_CANNOT_CONTROL":true,"CAN_EXTEND_EXPIRY":true,"IS_DOT_ETH":true,"unnamed":{"524288":true,"1048576":true,"2097152":true,"4194304":true,"8388608":true,"16777216":true,"33554432":true,"67108864":true,"134217728":true,"268435456":true,"536870912":true,"1073741824":true,"2147483648":true}},"child":{"CAN_UNWRAP":true,"CAN_BURN_FUSES":true,"CAN_TRANSFER":true,"CAN_SET_RESOLVER":true,"CAN_SET_TTL":true,"CAN_CREATE_SUBDOMAIN":true,"CAN_APPROVE":true,"CAN_DO_EVERYTHING":true,"named " :aresxer.eth:{"128":true,"256":true,"512":truee,"1024":true,"2048":true,"4096":true,"8192":true,"16384":true,"32768":truee}}}},{"trait_type":"Namewrapper Expiry Date","display_type":"date","value":1731652811000},{"trait_type":"Namewrapper State","display_type":"string","value":"Emancipated"}],"url":"https://app.ens.domains/name/aresxer.eth","last_request_date":1702808525931,"version":2,"background_image":"https://metadata.ens.domains/mainnet/avatar/aresxer.eth","image":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0/image","image_url":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0
-  }/autoscan.log
-/autoscan-stratum+tcp://
-/url:
-/password:x
-/aclocal.m4
-/config.status 
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan/
+        //"is_normalized":true,"name":"aresxer.eth","description":"aresxer.eth, an ENS name.","attributes:"0xC9a0fe1740dE0C1fFD4111F2737938a5c50E9c83:[{"trait_type":"Created Date","display_type":"date","value":1692340811000},{"trait_type":"Length","display_type":"number","value":7},{"trait_type":"Segment Length","display_type":"number","value":7},{"trait_type":"Character Set","display_type":"string","value":"letter"},{"trait_type":"Registration Date","display_type":"date","value":1692340811000},{"trait_type":"Expiration Date","display_type":"date","value":1723876811000},{"trait_type":"Namewrapper Fuse States","display_type":"object","value":{"parent":{"PARENT_CANNOT_CONTROL":true,"CAN_EXTEND_EXPIRY":true,"IS_DOT_ETH":true,"unnamed":{"524288":true,"1048576":true,"2097152":true,"4194304":true,"8388608":true,"16777216":true,"33554432":true,"67108864":true,"134217728":true,"268435456":true,"536870912":true,"1073741824":true,"2147483648":true}},"child":{"CAN_UNWRAP":true,"CAN_BURN_FUSES":true,"CAN_TRANSFER":true,"CAN_SET_RESOLVER":true,"CAN_SET_TTL":true,"CAN_CREATE_SUBDOMAIN":true,"CAN_APPROVE":true,"CAN_DO_EVERYTHING":true,"named " :aresxer.eth:{"128":true,"256":true,"512":truee,"1024":true,"2048":true,"4096":true,"8192":true,"16384":true,"32768":truee}}}},{"trait_type":"Namewrapper Expiry Date","display_type":"date","value":1731652811000},{"trait_type":"Namewrapper State","display_type":"string","value":"Emancipated"}],"url":"https://app.ens.domains/name/aresxer.eth","last_request_date":1702808525931,"version":2,"background_image":"https://metadata.ens.domains/mainnet/avatar/aresxer.eth","image":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0/image","image_url":"https://metadata.ens.domains/mainnet/0xd4416b13d2b3a9abae7acd5d6c2bbdbe25686401/0x0b537c7e472f2262f4c480b846a5f1d6f0784c664468abc227d5c4672e356ce0
+         //autoscan.log
+//autoscan-stratum+tcp://
+//url:
+//password:x
+//aclocal.m4
+//config.status 
+//config.guess
+//config.h.in
+//config.log
+//config.status
+//config.sub
+//configure
+//configure.scan/
 0x6A23e65cEca346676e002Ee11C60D174c4Cbc450
 /depcomp
 /install-sh
 /missing
 /stamp-h1
 
-# https://www.gnu.org/software/libtool/
+//# https://www.gnu.org/software/libtool/
 
-/ltmain.sh
+//ltmain.sh
 
-# http://www.gnu.org/software/texinfo
+//# http://www.gnu.org/software/texinfo
 
-/texinfo.tex
+//texinfo.tex
 
-# http://www.gnu.org/software/m4/
+//# http://www.gnu.org/software/m4/
 
 m4/libtool.m4
 m4/ltoptions.m4
 m4/ltsugar.m4
 m4/ltversion.m4
-m4/lt~obsolete.m4
+m4/lt-obsolete.m4
 
 
 Makefile
 {
-    "evmVersion": "byzantium",
-    "libraries": {100},
-    "optimizer": {30
-        "enabled": true,
-        "runs": 200
-    },  },.[vscode/Aresxer.eth.code-profile
+    //"evmVersion": "byzantium",
+    //"libraries": {100},
+    //"optimizer": {30
+        //"enabled": true,
+        //"runs": 200
+    -vscode/Aresxer.eth.code-profile
 /// Accepts an RMRK child being in the `Pending` status.
 /// Removes RMRK child from `pending_children` and adds it to `accepted_children`.
 ///
@@ -143,7 +143,10 @@ Makefile
 /// * `child_token_id`: is the tokenId of the child instance
 ///
 /// On success replies [`RMRKEvent::AcceptedChild`].
-AcceptChild {
-    parent_token_id: TokenId,
-    child_contract_id: ActorId,
-    child_token_id: TokenId,
+        //AcceptChild {
+   // parent_token_id: TokenId,
+    //child_contract_id: ActorId,
+    //child_token_id: eth
+    
+    
+}
