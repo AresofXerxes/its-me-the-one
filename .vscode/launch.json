@@ -1,10 +1,21 @@
-
+{
+    "configurations": [
+    {
+        "type": "cmake",
+        "request": "launch",
+        "name": "CMake: Configure project",
+        "cmakeDebugType": "configure",
+        "clean": false,
+        "configureAll": false
+    }
+    ]
+}
     //"configurations": [
     
         //"name": "Listen for Xdebug 2 (Legacy)",
         //"type": "php",
         //"request": "launch",
-        //"port": 9000
+//command:workbench.action.debug.configure        //"port": 9000
     
     
 
