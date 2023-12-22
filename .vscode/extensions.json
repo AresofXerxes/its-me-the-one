@@ -4,13 +4,13 @@
         "franneck94.c-cpp-runner",
         "haselerdev.aiquickfix"
     ]
-+[package]
++//[package]
 //name = "non-fungible-token"
 //version.workspace = true
 //edition.workspace = true
 //publish.workspace = true
 
-+[dependencies]
++//[dependencies]
 //gstd.workspace = true
 //primitive-types.workspace = true
 //non-fungible-token-io.workspace = true
@@ -19,13 +19,13 @@
 //sp-core-hashing.workspace = true
 //gmeta.workspace = true
 
-+[dev-dependencies]
++//[dev-dependencies]
 //hex-literal.workspace = true
 //sp-core.workspace = true
 //gclient.workspace = true
 //gtest.workspace = true
 //tokio.workspace = true
 
-+[build-dependencies]
++//[build-dependencies]
 //non-fungible-token-io.workspace = true
 //gear-wasm-builder.workspace = true
