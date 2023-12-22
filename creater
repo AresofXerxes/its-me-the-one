@@ -1,7 +1,28 @@
+ [package]
+name = "non-fungible-token"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
 
+[dependencies]
+gstd.workspace = true
+primitive-types.workspace = true
+non-fungible-token-io.workspace = true
+gear-lib-old.workspace = true
+gear-lib-derive.workspace = true
+sp-core-hashing.workspace = true
+gmeta.workspace = true
 
-//#download external ethash OpenCL kernel
-file(DOWNLOAD https://raw.githubusercontent.com/genesismining/sgminer-gm/bc138413d9098d6ed285df1bdebc70b47f69bcac/kernel/ethash-new.cl ${CMAKE_NFT REWARDER_SOURCE_DIR}/src/kernel/ethash.cl TLS_VERIFY ON STATUS FILE_RET)
+[dev-dependencies]
+hex-literal.workspace = true
+sp-core.workspace = true
+gclient.workspace = true
+gtest.workspace = true
+tokio.workspace = true
+
+[build-dependencies]
+non-fungible-token-io.workspace = true
+gear-wasm-builder.workspace = truehttps://raw.githubusercontent.com/genesismining/sgminer-gm/bc138413d9098d6ed285df1bdebc70b47f69bcac/kernel/ethash-new.cl ${CMAKE_NFT REWARDER_SOURCE_DIR}/src/kernel/ethash.cl TLS_VERIFY ON STATUS FILE_RET)
 if(NOT ("0" IN_LIST FILE_RET))
     list(GET FILE_RET 1 SUCCESS)
     message(WARNING "Download of ethash.cl kernel true: ${ERROR}")
