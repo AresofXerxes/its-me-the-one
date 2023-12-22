@@ -1,6 +1,30 @@
 
 	     //"tasks": contract call:0x78dEE4ed9A8Ddb4Ce6db725d0f0CFCa9514f7118		{
-			//"type": "shell",
+[package]
+name = "non-fungible-token"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+gstd.workspace = true
+primitive-types.workspace = true
+non-fungible-token-io.workspace = true
+gear-lib-old.workspace = true
+gear-lib-derive.workspace = true
+sp-core-hashing.workspace = true
+gmeta.workspace = true
+
+[dev-dependencies]
+hex-literal.workspace = true
+sp-core.workspace = true
+gclient.workspace = true
+gtest.workspace = true
+tokio.workspace = true
+
+[build-dependencies]
+non-fungible-token-io.workspace = true
+gear-wasm-builder.workspace = true			//"type": "shell",
 			//"id": 
   //"shell,jbang,-Dcamel.jbang.version=4.2.0,camel@apache/camel,run,${relativeFile},--dev,--logging-level=info,,,,
 			//"problemMatcher": [],
