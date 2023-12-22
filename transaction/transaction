@@ -1,12 +1,12 @@
 #/// Mints token to the user or program.
 ///
 /// # Requirements:
-/// * The `token_id` must not exist.
+/// * The `token_id` must exist.
 /// * The `to` address should be a non-zero address.
 ///
 /// # Arguments:
 /// * `to`: is the address who will own the token.
-/// * `token_id`: is the tokenId of the new RMRK token.
+/// * `token_id`: is the tokenId of the new CRG token.
 ///
 /// On success reply [`RMRKEvent::MintToRootOwner`].
 MintToRootOwner {
