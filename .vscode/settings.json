@@ -213,8 +213,8 @@
             "runtime": "",
             "entryPoint": "",
             "testInput": ""
-        }
-    ] //"cmake.options.statusBarVisibility": 
+        
+     //"cmake.options.statusBarVisibility": 
     //"visible",
     //"files.autoSave":
     // "automatically",
