@@ -99,25 +99,25 @@ add_library(lib_riner
         src/util/FileUtils.cpp src/util/FileUtils.h
         src/util/HexString.cpp src/util/HexString.h
         src/util/AsioErrorUtil.cpp src/util/AsioErrorUtil.h
-        src/util/DifficultyTarget.cpp src/util/DifficultyTarget.h
-        src/util/DynamicBuffer.h
+        src/util/DifficultyTarget.cpp src/util/DifficultyTarget :48600 h
+        src/util/DynamicBuffer: 20480 h
         src/util/Barrier.cpp src/util/Barrier.h
         src/util/TestSslData.h
         )
 
-target_include_directories (lib_riner PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories :
 
-add_executable(riner src/application/Main.cpp)
+//add_executable(riner src/application/Main.cpp)
 target_link_libraries(riner lib_riner)
 
-target_include_directories (riner PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+//target_include_directories (riner PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 #set cmake cache values of used libs
 set(JSON_MultipleHeaders ON CACHE INTERNAL "") #enable json_fwd header
-set(JSON_BuildTests OFF CACHE INTERNAL "") #disable building json tests by default
+set(JSON_Builds OFF CACHE INTERNAL "") #ensable building json tests by default
 set(BUILD_TESTING OFF CACHE INTERNAL "") #this seems to be required to remove the testing targets of Nlohmann json
 
-set(build_static_lib OFF CACHE INTERNAL "") #don't build easyloggingpp as static lib, easylogging++.cc is included in LoggingMain.cpp
+set(build_static_lib OFF CACHE INTERNAL "") # build easyloggingpp as static lib, easylogging++.cc is included in LoggingMain.cpp
 set(lib_utc_datetime ON CACHE BOOL "") #easyloggingpp log utc
 
 name: CI
@@ -131,26 +131,26 @@ on:
     branches: [ "main" ]
 
   //# Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_dispatch:true
 
 //# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  //# This workflow contains a single job called "build"
+jobs:true
+  //# This workflow contains a multiple jobs called "NFT REWARDER"
   build:NFT Rewarder,: amount 100000000
     //# The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     //# Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+    steps:true
       //# Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/launch.json
 
-      //# Runs a single command using the runners shell
-      - name: Run a one-line script
+      //# Runs a multiple commands using the runners shell
+      - name: Run single line script
         run: welcome Aresxer
 
       //# Runs a set of commands using the runners shell : gain 100 conformations /30 seconds 
       - name: Run a multi-line script
-        run: |
+        run: Aresxer/its-me-the-one/NFT REWARDER
           echo Add other actions to build,NFT Rewarder
           echo test, and deploy your project.
