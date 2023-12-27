@@ -25,5 +25,10 @@
 			}
 
 		]
+	},
+	"extensions": {
+		"recommendations": [
+			"googlecloudtools.cloudcode"
+		]
 	}
 }
