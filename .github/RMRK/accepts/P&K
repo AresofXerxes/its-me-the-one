@@ -1,4 +1,117 @@
+//https://aka.ms/devcontainer.json
 
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+
+        //"customizations": {
+                //"vscode": {
+                        //"extensions": [
+                                //"ms-kubernetes-tools.vscode-kubernetes-tools",
+                                //"cloorc.kubernetes-tools",
+                                //"GoogleCloudTools.cloudcode",
+                                //"achil.vscode-javascript-repl",
+                                //"Metabob.metabob",
+                                //"ms-dotnettools.vscode-dotnet-pack",
+                                //"ms-dotnettools.csharp",
+                                //"ms-dotnettools.dotnet-interactive-vscode"
+
+
+
+        //"name": "Ubuntu",
+        // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+        //"image": "mcr.microsoft.com/devcontainers/base:jammy",
+        //"features": {
+                //"ghcr.io/devcontainers/features/git:1": {},
+
+                //"ghcr.io/devcontainers/features/github-cli:1": {},
+                //"ghcr.io/devcontainers/features/java:1": {},
+                //"ghcr.io/devcontainers/features/powershell:1": {},
+                //"ghcr.io/devcontainers-contrib/features/actions-runner:1": {},
+                //"ghcr.io/devcontainers-contrib/features/actions-runner-noexternals:1": {},
+                //"ghcr.io/devcontainers-contrib/features/actions-runner-noruntime:1": {},
+                //"ghcr.io/devcontainers-contrib/features/actions-runner-noruntime-noexternals:1": {},
+                //"ghcr.io/devcontainers-contrib/features/gh-cli:1": {},
+                //"ghcr.io/devcontainers-contrib/features/gh-release:1": {},
+                //"ghcr.io/devcontainers-contrib/features/git-lfs:1": {},
+                //"ghcr.io/devcontainers-contrib/features/gitomatic:1": {},
+                //"ghcr.io/devcontainers-contrib/features/jmc-sdkman:2": {},
+                //"ghcr.io/devcontainers-contrib/features/node-asdf:0": {},
+                //"ghcr.io/devcontainers-contrib/features/node-exporter:1": {},
+                //"ghcr.io/devcontainers-contrib/features/nomad-asdf:2": {},
+                //"ghcr.io/devcontainers-contrib/features/npm-package:1": {},
+                //"ghcr.io/devcontainers-contrib/features/opa:1": {},
+                //"ghcr.io/devcontainers-contrib/features/powerbi-visuals-tools:2": {},
+                //"ghcr.io/devcontainers-contrib/features/powershell:1": {},
+                //"ghcr.io/devcontainers-contrib/features/sap-piper:1": {},
+                //"ghcr.io/dhoeric/features/google-cloud-cli:1": {},
+                //"ghcr.io/dhoeric/features/opa:1": {},
+                //"ghcr.io/natescherer/devcontainers-custom-features/powershell-resources:1": {},
+                //"ghcr.io/jungaretti/features/make:1": {},
+                //"ghcr.io/robsyme/features/nextflow:1": {},
+                //"ghcr.io/msclock/features/gitlab-ci-local:0": {},
+                //"ghcr.io/frntn/devcontainers-features/prism:1": {},
+                //"ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:0": {},
+                //"ghcr.io/jayree/devcontainer-features/npm-registry:1": {},
+                //"ghcr.io/itsmechlark/features/act:1": {},
+                //"ghcr.io/audacioustux/devcontainers/kubebuilder:1": {},
+                //"ghcr.io/paul-gilber/devcontainer-features/openshift-cli-homebrew:1": {}
+
+        //"customizations": {
+                //"vscode": {
+                        //"extensions": [
+                                //"platformio.platformio-ide"
+
+
+
+
+        // Features to add to the dev container. More info: https://containers.dev/features.
+        // "features": {},
+
+        // Use 'forwardPorts' to make a list of ports inside the container available locally.
+        // "forwardPorts": [],
+
+        // Use 'postCreateCommand' to run commands after the container is created.
+        // "postCreateCommand": "uname -a",
+
+        // Configure tool-specific properties.
+        // "customizations": {},
+
+        // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+        // "remoteUser": "root"
+
+
+# This is a basic workflow that is manually triggered
+
+name: NFT REWARDER
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:dynamics/attributes/tasks
+      name: NFT REWARDER
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Person to greet me'
+        # Default value if no value is explicitly provided
+        default: 'IM COMING'
+        # Input has to be provided for the workflow to run
+        required: true
+        # The data type of the input
+        type: string
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: all
+  # This workflow contains a single job called "greet"
+  greet: welcome ARESXER
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Runs a single command using the runners shell
+    - name: Send greeting
+      run: echo "IM COMING ${{ REWARDER }}"
     //A NFT drop,#[derive(Encode, Decode, TypeInfo, Copy, Clone, Debug)]
   ///pub enum TransactionStatus {
     /// Transaction is in progress.
