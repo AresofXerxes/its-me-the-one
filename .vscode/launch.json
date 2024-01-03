@@ -5,8 +5,8 @@
         "request": "launch",
         "name": "CMake: Configure project",
         "cmakeDebugType": "configure",
-        "clean": false,
-        "configureAll": false
+        "clean": true,
+        "configureAll": true
     }
     ]
 }
@@ -28,12 +28,12 @@
             //"type": "coreclr",
             //"request": "launch",
             //"preLaunchTask": "build",
-            //"program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+            //"program": "${NFT-REWARDER Folder}/bin/Debug/<target-framework>/<project-name.dll>",
             //"args": [],
             //"cwd": "${workspaceFolder}",
             //"stopAtEntry": false,
             //"console": "internalConsole",
-            //"pipeTransport": {
+            //"pipeTransport": {true
                // "pipeCwd": "${workspaceFolder}",
                 //"pipeProgram": "enter the fully qualified path for the pipe program name, for example '/usr/bin/ssh'",
                 //"pipeArgs": [],
